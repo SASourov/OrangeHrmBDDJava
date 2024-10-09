@@ -61,7 +61,6 @@ public class AdminPage {
         Thread.sleep(1000);
 
         statusList.sendKeys(Keys.ARROW_DOWN);
-//        statusList.sendKeys(Keys.ENTER);
         Thread.sleep(1000);
     }
 

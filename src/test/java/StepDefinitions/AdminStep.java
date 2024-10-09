@@ -54,12 +54,5 @@ public class AdminStep {
     public void user_click_on_save_button() throws InterruptedException {
         ap.clickSaveButton();
 
-        try {
-            driver.quit();
-            System.out.println("Script Done");
-        }
-        catch (Exception e){
-            System.out.println("Script Failed: " + e.getMessage());
-        }
     }
 }

@@ -19,3 +19,7 @@ Feature: Login Functionality
     And user set username
     And user set password
     Then user click on save button
+
+  @performance
+  Scenario: Performance Functionality
+    When user click on performance menu
